@@ -1,0 +1,255 @@
+.grid-container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: 15px;
+    padding: 10px;
+}
+
+.vertical-menu a {
+    color: black;
+    display: inline-flex;
+    padding: 12px;
+    text-decoration: none;
+    width: 235px;
+    border-radius: 10px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.vertical-menu a.home {
+    background-color: #14db2f;
+    color: white;
+}
+
+.vertical-menu a.home:hover {
+    background-color: #83ff94;
+    color: black;
+}
+
+.vertical-menu a.enlaceA {
+    background-color: rgb(156, 154, 154);
+}
+
+.vertical-menu a.enlaceA:hover {
+    background-color: #83ff94;
+}
+
+.vertical-menu a.enlaceFijo {
+    background-color: #83ff94;
+}
+
+.numeros {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    background-color: #14db2f;
+    width: 400px;
+    height: 586px;
+    border-radius: 20px;
+}
+
+.numeros td button {
+    display: block;
+    width: 114px;
+    height: 63px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.numeros td button:focus {
+    background-color: #83ff94;
+    outline: none;
+}
+
+#borrar {
+    background-color: orangered;
+    width: 233px;
+}
+
+#result {
+    display: block;
+    font-size: 35px;
+    margin-bottom: 20px;
+    width: 350px;
+    height: 120px;
+    background-color: #fff;
+    border-radius: 14px;
+    overflow-y: auto;
+    text-align: right;
+    line-height: 110px;
+    padding-right: 5px;
+}
+
+#a-c>td>button, #d-f>td>button {
+    background-color: #cacaca;
+}
+
+#a-c>td>button:focus, #d-f>td>button:focus {
+    background-color: #83ff94;
+}
+
+.opciones {
+    display: grid;
+    margin-right: 50px;
+    padding: 20px;
+    background-color: #14db2f;
+    width: 765px;
+    height: 547px;
+    border-radius: 20px;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+}
+
+.opciones>button {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 7px;
+    height: auto;
+}
+
+.opciones>button:hover {
+    background-color: #f4fff0;
+}
+
+.opciones>button:focus {
+    background-color: #83ff94;
+    outline: none;
+}
+
+.atras {
+    display: flex;
+    background-color: #14db2f;
+    border-radius: 15px;
+    height: 597px;
+    width: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.atras:hover {
+    background-color: #83ff94;
+}
+
+p {
+    font-size: large;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Calculadora científica */
+#borrarc {
+    background-color: orangered;
+}
+
+.numerosc {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    background-color: #14db2f;
+    width: 400px;
+    height: 586px;
+    border-radius: 20px;
+}
+
+.numerosc td button {
+    display: block;
+    width: 86px;
+    height: 63px;
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 56px;
+}
+
+.numerosc td button:focus {
+    background-color: #83ff94;
+    outline: none;
+}
+
+#igual {
+    height: 94px;
+    width: 85px;
+}
+
+#ceroc {
+    height: 35px;
+    width: 176px;
+}
+
+#ceroceroc {
+    height: 35px;
+}
+
+/* Cambios generales en todas las instrucciones */
+.botonFinal {
+    display: flex;
+    background: #14db2f;
+    border: 1px solid black;
+    border-radius: 13px;
+    text-decoration:none;
+    height: 50px;
+    font-size: 17px;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.botonFinal:hover {
+    background-color: #83ff94;
+}
+
+h3 {
+    margin-bottom: 0px;
+}
+
+ul {
+    margin-top: 0px;
+}
+
+/* Conversor Monetaria */
+.numerosm {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    background-color: #14db2f;
+    width: 400px;
+    height: 586px;
+    border-radius: 20px;
+}
+
+.numerosm td button {
+    display: block;
+    width: 114px;
+    height: 76px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.numerosm td button:focus {
+    background-color: #83ff94;
+    outline: none;
+}
+
+#borrar {
+    background-color: orangered;
+    width: 233px;
+}
+
+#result {
+    display: block;
+    font-size: 35px;
+    margin-bottom: 20px;
+    width: 350px;
+    height: 120px;
+    background-color: #fff;
+    border-radius: 14px;
+    overflow-y: auto;
+    text-align: right;
+    line-height: 110px;
+    padding-right: 5px;
+}

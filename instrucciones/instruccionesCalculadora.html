@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="instrucciones.css">
+</head>
+
+<body onload="inicio()";>
+    <div class="grid-container">
+        <div class="vertical-menu">
+            <a href="/index.html" class="home">Atrás</a>
+            <a href="instruccionesConversor.html" class="enlaceA">Conversor</a>
+            <a href="instruccionesMonetaria.html" class="enlaceA">Monetaria</a>
+            <a href="instruccionesBinDec.html" class="enlaceA">Calculadora Bin-Dec-Hex-Oct</a>
+            <a class="enlaceFijo">Calculadora Cientifica</a>
+        </div>
+    </div>
+    <h1>
+        Instrucciones de uso de la calculadora científica
+    </h1>
+    <h2>
+        Es recomendable leer todas las instrucciones de uso antes de usar el programa para entender
+        correctamente cómo usarlo sin que haya dudas
+    </h2>
+    <h2>
+        Componentes de la calculadora:
+    </h2>
+    <h3>
+        Índice
+    </h3>
+    <ul>
+        <li><a href="#teclado">Teclado</a></li>
+        <li><a href="#botonatras">Atrás</a></li>
+    </ul>
+    <ul>
+        <li id="teclado"><b>Teclado (puedes teclear en el teclado de abajo pero no te va a dar ninguna respuesta, para
+                ir a la calculadora baja hasta abajo del todo de esta página y persiona en el botón "ir a la
+                calculadora")</b></li><br>
+        <div id="grid-container">
+            <table class="numerosc">
+                <tr>
+                    <td colspan="4"><span id="result"></span></td>
+                </tr>
+                <tr>
+                    <td><button id="raizCuadrada">2\/''</button></td>
+                    <td><button id="raizX">x\/''</button></td>
+                    <td><button id="cuadrado">^2</button></td>
+                    <td><button id="cubo">^3</button></td>
+                </tr>
+                <tr>
+                    <td><button id="elevadoX">^x</button></td>
+                    <td><button id="logaritmo10">log(10)</button></td>
+                    <td><button id="logaritmoNeperiano">log(e)</button></td>
+                    <td><button id="logaritmoX">log(x)</button></td>
+                </tr>
+                <tr>
+                    <td><button id="borrarc">C</button></td>
+                    <td><button id="division">/</button></td>
+                    <td><button id="multiplicacion">x</button></td>
+                    <td><button id="resto">%</button></td>
+                </tr>
+                <tr>
+                    <td><button id="siete">7</button></td>
+                    <td><button id="ocho">8</button></td>
+                    <td><button id="nueve">9</button></td>
+                    <td><button id="resta">-</button></td>
+                </tr>
+                <tr>
+                    <td><button id="cuatro">4</button></td>
+                    <td><button id="cinco">5</button></td>
+                    <td><button id="seis">6</button></td>
+                    <td><button id="suma">+</button></td>
+                </tr>
+                <tr>
+                    <td><button id="uno">1</button></td>
+                    <td><button id="dos">2</button></td>
+                    <td><button id="tres">3</button></td>
+                    <td rowspan="2"><button id="igual">=</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button id="ceroc">0</button></td>
+                    <td><button id="ceroceroc">00</button></td>
+                </tr>
+            </table>
+        </div>
+        <p>
+            En el teclado están los números del cero al 9 para poder escribir el número que quieras, también se incluye
+            un boton con doble cero, para escribir números grandes facilmente.
+        </p>
+        <p>
+            En las operaciones básicas se encuentra (click en la palabra en negrita para resaltar en el taclado de
+            arriba a qué botón se refiere):
+        </p>
+        <p>
+            La <ins><b><a href="#suma">suma</a></b></ins>, marcada con un +
+        </p>
+        <p>
+            La <ins><b><a href="#resta">resta</a></b></ins>, marcada con un -
+        </p>
+        <p>
+            La <ins><b><a href="#multiplicacion">multiplicacion</a></b></ins>, marcada con x
+        </p>
+        <p>
+            La <ins><b><a href="#division">division</a></b></ins>, marcada con un /
+        </p>
+        <p>
+            El <ins><b><a href="#resto">resto</a></b></ins>, marcado con un %
+        </p>
+        <p>
+            Este ultimo sirve para sacar el resto que sale de la división entre dos números.
+        </p>
+        <p>
+            Las operaciones complejas son:
+        </p>
+        <p>
+            <ins><b><a href="#cuadrado">Potencias</a></b></ins>, en esta calculadora puedes hacer cálculos con potencias
+            de todo tipo, en el teclado de la calculadora está representado con el signo <b><a
+                    href="#cuadrado">^2</a></b> para las potencias de exponente 2, <b><a href="#cubo">^3</a></b> para
+            las potencias de exponente 3, y <b><a href="#elevadoX">^x</a></b> para las potencias de exponente el que tu
+            quieras, en este último caso tienes que presionar el numero que quieres que sea el exponente, seguidamente
+            presionar <b><a href="#elevadoX">^x</a></b>, y por último presionar el numero de base, por ejemplo, si
+            quieres resolver 6 elevado a 15, tienes que escribir en el teclado un 15, seguidamente presionar <b><a
+                    href="#elevadoX">^x</a></b>, y por último escribir en el teclado el 6, para finalizar presiona el
+            botón de igual(=) y aparecerá en la pantalla el resultado. Tanto en las operaciones con potencia cuadrada y
+            cúbica no hace falta presionar el botón de igual, si escribes el numero que quieres usar y seguidamente
+            presionas <b><a href="#cuadrado">^2</a></b>, o <b><a href="#cubo">^3</a></b>, aparecerá la solución
+            inmediatamente.
+        </p>
+        <p>
+            <ins><b><a href="#raizCuadrada">Raices</a></b></div></ins>, en esta calculadora también puedes hacer
+            cálculos con raices, en el teclado de la calculadora está representado con el signo <b><a
+                    href="#raizCuadrada">2\/''</a></b> para las raices cuadradas y <b><a href="#raizX">x\/''</a></b>
+            para las raices con base la que tu quieras, el funcionamiento es similar a las potencias
+        </p>
+        <p>
+            <ins><b><a href="#logaritmo10">Logaritmos</a></b></ins>, también está la opción de hacer operaciones con
+            logaritmos en esta calculadora, en el teclado el botón de logaritmo es <b><a
+                    href="#logaritmo10">log(10)</a></b> para logaritmos en base 10, <b><a
+                    href="#logaritmoNeperiano">log(e)</a></b> para logaritmos neperianos o en base e (2.71828182846...),
+            y <b><a href="#logaritmoX">log(x)</a></b> para logaritmos con la base que tú elijas, el funcionamiento es
+            similar a las potencias.
+        </p>
+        <li id="botonatras"><b>Atrás</b></li>
+        <div class="atras">
+            <a>Atrás</a>
+        </div><br>
+        <p>
+            El botón de atrás sirve para volver al menú principal desde el cual puedes acceder a todas las
+            características o continuar leyendo las instrucciones si es que no has terminado de hacerlo.
+        </p>
+    </ul>
+    <a href="/calculadora/calculadora.html" class="botonFinal">Ir a la calculadora</a><br>
+    <a href="/index.html" class="botonFinal">Volver al Menú</a>
+    <script src="CalcCientific.js"></script>
+</body>
+
+</html>

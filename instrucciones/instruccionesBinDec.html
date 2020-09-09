@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="instrucciones.css">
+</head>
+
+<body onload="inicio()" ;>
+    <div class="grid-container">
+        <div class="vertical-menu">
+            <a href="/index.html" class="home">Atrás</a>
+            <a href="instruccionesConversor.html" class="enlaceA">Conversor</a>
+            <a href="instruccionesMonetaria.html" class="enlaceA">Monetaria</a>
+            <a class="enlaceFijo">Calculadora Bin-Dec-Hex-Oct</a>
+            <a href="instruccionesCalculadora.html" class="enlaceA">Calculadora Cientifica</a>
+        </div>
+        <h1>
+            Instrucciones de uso de la calculadora Binario - Decimal - Hexadecimal - Octal
+        </h1>
+        <h2>
+            Es recomendable leer todas las instrucciones de uso antes de usar el programa para entender
+            correctamente cómo usarlo sin que haya dudas
+        </h2>
+        <h2>
+            Componentes de la calculadora:
+        </h2>
+        <h3>
+            Índice
+        </h3>
+        <ul>
+            <li><a href="#teclado">Teclado</a></li>
+            <li><a href="#opciones">Opciones</a></li>
+            <li><a href="#botonatras">Atrás</a></li>
+        </ul>
+        <ul>
+            <li id="teclado"><b>Teclado (el teclado de abajo es funcional)</b></li>
+            <div class="datos">
+                <table class="numeros">
+                    <tr>
+                        <td colspan="3"><span id="result"></span></td>
+                    </tr>
+                    <tr id="a-c">
+                        <td><button id="a">A</button></td>
+                        <td><button id="b">B</button></td>
+                        <td><button id="c">C</button></td>
+                    </tr>
+                    <tr id="d-f">
+                        <td><button id="d">D</button></td>
+                        <td><button id="e">E</button></td>
+                        <td><button id="f">F</button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="siete">7</button></td>
+                        <td><button id="ocho">8</button></td>
+                        <td><button id="nueve">9</button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="cuatro">4</button></td>
+                        <td><button id="cinco">5</button></td>
+                        <td><button id="seis">6</button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="uno">1</button></td>
+                        <td><button id="dos">2</button></td>
+                        <td><button id="tres">3</button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="cero">0</button></td>
+                        <td colspan="2"><button id="borrar">C</button></td>
+                    </tr>
+                </table>
+            </div>
+            <p>
+                En el teclado están los números del 0 al 9, las letras de la A a la F y un botón de
+                borrado (puedes probar en el teclado de arriba para ver como funciona).
+            </p>
+            <p>
+                Es importante saber que las letras de la A a la F solo funcionan si el numero que quieres
+                convertit a otro es hexadecimal, si no el resultado será NaN.
+            </p><br>
+            <li id="opciones"><b>Opciones para elegir (puedes hacer click en ellas pero no hacen nada más)</b></li><br>
+            <div class="opciones">
+                <button id="decimal">Decimal</button>
+                <button id="decimal2">Decimal</button>
+                <button id="binario">Binario</button>
+                <button id="binario2">Binario</button>
+                <button id="hexadecimal">Hexadecimal</button>
+                <button id="hexadecimal2">Hexadecimal</button>
+                <button id="octal">Octal</button></button>
+                <button id="octal2">Octal</button>
+            </div>
+            <p>
+                <ins>
+                    Método de uso de las opciones.
+                </ins>
+            </p>
+            <p>
+                La razón por la que hay opciones repetidas es porque las opciones de la primera columna
+                marcan el valor inicial, por ejemplo si quieres convertir de peras a manzanas, la primera
+                columna serian las peras.
+            </p>
+            <p>
+                Por otro lado la segunda columna marca el valor o la unidad final, el valor al que quieres
+                convertir, en el ejemplo de las peras y las manzanas, la segunda columna serían las manzanas.
+            </p><br>
+            <li id="botonatras"><b>Atrás (puedes hacer click pero nada más)</b></li><br>
+            <div class="atras">
+                <a>Atrás</a>
+            </div>
+            <p>
+                El boton de atrás sirve para volver al menú inicial desde el cual puedes usar todas las
+                finciones de este programa, o seguir leyendo las instrucciones si es que no lo has hecho aun.
+            </p><br>
+            <p>
+                Eso son todas las instrucciones de uso de la calculadora de binario-decimal-hexadecimal-octal,
+            </p>
+        </ul>
+        <a href="/binarioDecimal/binarioDecimal.html" class="botonFinal">Ir a la calculadora</a>
+        <a href="/index.html" class="botonFinal">Volver al Menú</a>
+    </div>
+
+</body>
+
+</html>
