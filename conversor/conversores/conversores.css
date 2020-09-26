@@ -1,0 +1,125 @@
+.conver {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    background-color: #14db2f;
+    width: 100%;
+    height: 95vh;
+    border-radius: 20px;
+}
+
+.conver td button {
+    display: block;
+    width: 114px;
+    height: 12.7vh;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.conver td button:focus {
+    background-color: #83ff94;
+    outline: none;
+}
+
+#borrar {
+    background-color: orangered;
+    width: 353px;
+}
+
+#result {
+    display: block;
+    font-size: 35px;
+    margin-bottom: 20px;
+    width: 98.5%;
+    height: 20vh;
+    background-color: #fff;
+    border-radius: 14px;
+    overflow-y: auto;
+    text-align: right;
+    line-height: 110px;
+    padding-right: 5px;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 100% 100%;
+}
+
+.opciones {
+    display: grid;
+    margin-right: 50px;
+    padding: 20px;
+    background-color: #14db2f;
+    width: 94%;
+    height: 90vh;
+    border-radius: 20px;
+    grid-template-columns: 49% 49%;
+    grid-gap: 10px;
+}
+
+.datos {
+    width: 100%;
+}
+
+.opciones button {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 7px;
+    height: auto;
+}
+
+.opciones button:hover {
+    background-color: #f4fff0;
+}
+
+.opciones button:focus {
+    background-color: #83ff94;
+    outline: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 6% 28.5% 65%;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.vertical-menu {
+    width: 100%;
+}
+
+.vertical-menu a {
+    color: black;
+    display: flex;
+    padding: 12px;
+    text-decoration: none;
+    width: 70%;
+    height: 5.35vh;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.vertical-menu a.enlacesA:hover {
+    background-color: rgb(149, 253, 139);
+}
+
+.vertical-menu a.enlaceFijo {
+    background-color: rgb(149, 253, 139);
+}
+
+.vertical-menu a.home {
+    background-color: #14db2f;
+    color: white;
+}
+
+.vertical-menu a.home:hover {
+    background-color: #83ff94;
+    color: black;
+}
+
+.vertical-menu a.enlacesA {
+    background-color: rgb(156, 154, 154);
+}

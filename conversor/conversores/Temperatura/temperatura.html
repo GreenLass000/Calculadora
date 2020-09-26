@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Conversor de longitud</title>
+    <link rel="stylesheet" href="../conversores.css">
+    <link rel="stylesheet" href="temperatura.css">
+</head>
+
+<body onload="inicio()" ;>
+    <div class="grid-container">
+        <div class="vertical-menu">
+            <a href="../../conversor.html" class="home">Atrás</a><br>
+            <a href="../Longitud/longitud.html" class="enlacesA">Longitud</a><br>
+            <a href="../Masa/masa.html" class="enlacesA">Masa</a><br>
+            <a href="../Volumen/volumen.html" class="enlacesA">Volumen</a><br>
+            <a href="../Tiempo/tiempo.html" class="enlacesA">Tiempo</a><br>
+            <a href="#" class="enlaceFijo">Temp.</a><br>
+            <a href="../Energia/energia.html" class="enlacesA">Energía</a><br>
+            <a href="../Presion/presion.html" class="enlacesA">Presión</a><br>
+            <a href="../TamañoDatos/tamañoDatos.html" class="enlacesA">T. Datos</a>
+        </div>
+        <div class="datos">
+            <table class="conver">
+                <tr>
+                    <td colspan="3"><span id="result"></span></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button id="borrar">C</button></td>
+                    <td><button id="menos"><b>-</b></button></td>
+                </tr>
+                <tr>
+                    <td><button id="siete">7</button></td>
+                    <td><button id="ocho">8</button></td>
+                    <td><button id="nueve">9</button></td>
+                </tr>
+                <tr>
+                    <td><button id="cuatro">4</button></td>
+                    <td><button id="cinco">5</button></td>
+                    <td><button id="seis">6</button></td>
+                </tr>
+                <tr>
+                    <td><button id="uno">1</button></td>
+                    <td><button id="dos">2</button></td>
+                    <td><button id="tres">3</button></td>
+                </tr>
+                <tr>
+                    <td><button id="coma"><b>,</b></button></td>
+                    <td><button id="cero">0</button></td>
+                    <td><button id="cerocero">00</button></td>
+                </tr>
+            </table>
+        </div>
+        <div class="opciones">
+            <button id="kelvin">Kelvin</button>
+            <button id="kelvin2">Kelvin</button>
+            <button id="celsius">Grados Celsius</button>
+            <button id="celsius2">Grados Celsius</button>
+            <button id="fahrenheit">Grados Fahrenheit</button>
+            <button id="fahrenheit2">Grados Fahrenheit</button>
+        </div>
+    </div>
+    <script src="temperatura.js"></script>
+</body>
+
+</html>
